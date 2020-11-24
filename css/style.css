@@ -85,7 +85,16 @@ nav { display: flex;justify-content: space-between;align-items: center; font-fam
 
 /* Section01 시작 */
 /* background 영역 */
-#sec01 {overflow: hidden;}
+#sec01 {width: 100%;}
+#sec01 .sec01_01 {width: 100%; position: relative; margin: 22.5rem 0;}
+#sec01 .sec01_01 img {width: 100%; opacity: .2; z-index: -1;}
+#sec01 .sec01_01 .sec01_text01 {display: inline-block; position: absolute; top: 5%; left: 5%;}
+#sec01 .sec01_01 .sec01_text01 p {font-family: 'GmarketSansLight'; font-size: 1.2rem; line-height: 1.2rem; }
+#sec01 .sec01_01 .sec01_text01 h2 {font-family: 'GmarketSansLight'; font-size: 6rem; color: #ad7b61; line-height: 6rem; padding: 2.5rem 0; text-align: left;}
+#sec01 .sec01_01 .sec01_text02 {display: inline-block; position: absolute; bottom: 5%; right: 5%; text-align: right;}
+#sec01 .sec01_01 .sec01_text02 .bigger span {font-family: 'GmarketSansLight'; font-size: 6rem; line-height: 5rem;}
+#sec01 .sec01_01 .sec01_text02 p {font-family: 'THELuxGoL'; font-size: 1.7rem; line-height: 2.5rem;}
+/* #sec01 {overflow: hidden;}
 #sec01 .container {}
 #sec01 .design_01{position: relative; width: 100%;}
 #sec01 .design_01 p{display: block; margin-top: 5rem; font-family: 'THELuxGoL';}
@@ -95,7 +104,7 @@ nav { display: flex;justify-content: space-between;align-items: center; font-fam
 #sec01 .design_02{position: absolute; top:30%; right:0; text-align:right;} 
 #sec01 .design_02 span{font-size: 130px; font-family: 'THELuxGoL';}
 #sec01 .design_02 span:nth-child(2){font-size: 20px;}
-#sec01 .design_02 p{line-height: 40px; margin-top: 0; font-family: 'THELuxGoL';}
+#sec01 .design_02 p{line-height: 40px; margin-top: 0; font-family: 'THELuxGoL';} */
 
 #sec01 .car{position: relative;}
 #sec01 .car a{display: block;}
@@ -118,7 +127,6 @@ nav { display: flex;justify-content: space-between;align-items: center; font-fam
 #sec01 .color .tabBtn li.tabBtn10 {background-color: #2f1b19; border: 2px solid #8e6c69;}
 
 #sec01 .color .tabBtn li a{display: block;}
-
 
  
 /* background 영역 */
