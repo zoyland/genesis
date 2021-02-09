@@ -87,14 +87,13 @@ $(document).ready(function(){
 
   $(".ft_bt").on("click", function(){
     function slideDown(target){
-        slideUp();   //선택한걸 제외하고 없애주는 것
+        slideUp(); 
         $(target).addClass("on").next().slideDown();
     }
     function slideUp(){
         $(".ft_bt").removeClass("on").next().slideUp();
     }
     $(this).hasClass("on") ? slideUp() : slideDown($(this));
-    // 조건식 ? 참일떄실행문 : 거짓일때실행문;
   });
   
 });
